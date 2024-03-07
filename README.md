@@ -34,7 +34,7 @@
     <img src="images/logo.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Digital Infrastrcture for the Humanities (DRIH)</h3>
+  <h3 align="center">Digital Infrastructure for the Humanities (DRIH)</h3>
 
   <!-- <p align="center">
     An awesome README template to jumpstart your projects!
@@ -49,7 +49,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div> -->
-
+</div>
 
 
 <!-- TABLE OF CONTENTS -->
