@@ -86,7 +86,7 @@ In view of the steadily growing volume of digital output from Humanities researc
 
 ## Ingestor scripts
 
-Our open source [ingestor](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/__main__.py) is responsible for transforming the data stored in NocoDB into PDLM-compliant triples. It features code able to draw [diagrams](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_output_samples/pictures/actor/project-team/pe34_002.png) and to [test](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_output_samples/test_reports/activities.txt) each of the named graph it generates and populates.
+Our open-source [ingestor](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/__main__.py) is responsible for transforming the data stored in NocoDB into PDLM-compliant triples. It features code able to draw [diagrams](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_output_samples/pictures/actor/project-team/pe34_002.png) and to [test](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_output_samples/test_reports/activities.txt) each of the named graph it generates and populates.
 
 ### Prerequisites
 
