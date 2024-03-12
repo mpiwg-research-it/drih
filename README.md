@@ -116,11 +116,30 @@ options:
 
 The Project Description Layer Model (PDLM) is a semantic model based on CIDOC CRM, designed to describe research projects and their digital outputs within an institutional research data management strategy. Utilizing concepts from the Parthenos Entities Model (PEM), the PDLM emphasizes entities like digital objects (such as datasets and software), activities (including research and service projects), and actors (individuals, groups, and project teams). Digital objects are categorized into datasets and software, with distinctions made between volatile and persistent forms, crucial for archival purposes and data reuse. Activities encompass research and service projects, with detailed documentation of digital machine events for tracking the creation context of digital objects. Actors, comprising project teams, groups, and individuals, are essential for establishing the contextual framework. Developed and documented using the Zellij Semantic Documentation Protocol, the PDLM serves as a core model for contextualizing projects and their digital outputs, forming a vital part of the institution's Central Knowledge Graph (CKG) alongside CIDOC CRM representations of research data, contributing to sustainable research data management.
 
+![PDLM_0 1_Overview](https://github.com/mpiwg-research-it/drih/assets/10489583/79b98408-62fa-454a-ab09-92b70408a6de)
+
+_Overview of the PDLM_
+
 <!-- ROADMAP -->
 
 ## PDLM tabular data
 
-Placeholder
+CSV-Exports from Airtable of the Projet Team and Research Project model:
+
+- [Model_Fields-PDLM.1 Project Team (MPIWG).csv](https://github.com/mpiwg-research-it/drih/files/14572058/Model_Fields-PDLM.1.Project.Team.MPIWG.csv)
+- [Model_Fields-PDLM.11 Research Project (MPIWG).csv](https://github.com/mpiwg-research-it/drih/files/14572057/Model_Fields-PDLM.11.Research.Project.MPIWG.csv)
+
+The files show the basic structure of a model consisting of individual fields.
+
+- `ID`: unique identifier for the field within the particular model
+- `model_specific_name`: model specific label of the field
+- `model_specific_description`: model specific description of the field
+- `model_ontological_scope`: domain of the field
+- `field_crm_path`: principle CRM path of the field
+- `field_expected_value_type`: the expected range type of the field which may either be an entity type, another reference model, or a collection of fields
+- `model_specific_expected_resource_model`: gives the specific reference model if the expected range type is a reference model
+- `model_specific_expected_collection`: gives the specific collection if the expected range type is a collection
+- `field_turtle`: example Turtle serialisation of the field
 
 <!-- LICENSE -->
 
