@@ -112,7 +112,7 @@ options:
 - **-d**          generate diagram for each entity
 - **-t**          run tests and generate test reports in output/
 
-## Project Decsription Layer Model
+## Project Description Layer Model
 
 The Project Description Layer Model (PDLM) is a semantic model based on CIDOC CRM, designed to describe research projects and their digital outputs within an institutional research data management strategy. Utilizing concepts from the Parthenos Entities Model (PEM), the PDLM emphasizes entities like digital objects (such as datasets and software), activities (including research and service projects), and actors (individuals, groups, and project teams). Digital objects are categorized into datasets and software, with distinctions made between volatile and persistent forms, crucial for archival purposes and data reuse. Activities encompass research and service projects, with detailed documentation of digital machine events for tracking the creation context of digital objects. Actors, comprising project teams, groups, and individuals, are essential for establishing the contextual framework. Developed and documented using the Zellij Semantic Documentation Protocol, the PDLM serves as a core model for contextualizing projects and their digital outputs, forming a vital part of the institution's Central Knowledge Graph (CKG) alongside CIDOC CRM representations of research data, contributing to sustainable research data management.
 
