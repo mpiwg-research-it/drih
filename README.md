@@ -96,7 +96,7 @@ If you wish to use the ingestor in your own project, and take advantage of its N
 
 Please install the dependencies as described in [requirements.txt](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/requirements.txt)
 
-## Usage
+### Usage
 
 > python -m ingestor -url http://remote_url -u rs_username -p rs_password -d -t
 
