@@ -1,0 +1,20 @@
+x - Test Failed for projects_research_maintained_project
+ --- Failing Entities --- 
+   project_uri  project_maintaining_team
+0          NaN                       NaN
+
+✓ - Test Passed for projects_research_group_type_of_role
+✓ - Test Passed for projects_research_start_date
+✓ - Test Passed for projects_research_end_date
+x - Test Failed for projects_research_RDFS_label
+ --- Failing Entities --- 
+   project_uri  project_rdfs_label
+0          NaN                 NaN
+
+✓ - Test Passed for projects_research_description_type
+x - Test Failed for dmes_output
+ --- Failing Entities --- 
+   dme_uri  dme_output
+0      NaN         NaN
+
+✓ - Test Passed for dmes_description_type
