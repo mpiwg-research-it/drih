@@ -90,11 +90,11 @@ Our open-source [ingestor](https://github.com/mpiwg-research-it/drih/blob/main/i
 
 ### Prerequisites
 
-If you wish to use the ingestor in your own project, and take advantage of its NocoDB connection capabilities, you will need access to an instance of [NocoDB](https://github.com/nocodb/nocodb). You will then need to create an .env file based on the [.env.sample file](https://temp) we provide. 
+If you wish to use the ingestor in your own project, and take advantage of its NocoDB connection capabilities, you will need access to an instance of [NocoDB](https://github.com/nocodb/nocodb). You will then need to create an .env file based on the [.env.sample file](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/.env.sample) we provide. 
 
 ### Installation
 
-Please install the dependencies as described in [requirements.txt](https://tem)
+Please install the dependencies as described in [requirements.txt](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/requirements.txt)
 
 ## Usage
 
