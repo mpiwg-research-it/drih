@@ -1,0 +1,9 @@
+nocodb==2.0.1
+rdflib==6.3.2
+pydotplus==2.0.2
+python-dotenv==1.0.0
+pandas==1.5.3
+networkx==3.2.1
+matplotlib==3.8.2
+practicalSPARQL==0.0.6
+opencv-python==4.9.0.80
