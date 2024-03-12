@@ -90,7 +90,7 @@ Our open-source [ingestor](https://github.com/mpiwg-research-it/drih/blob/main/i
 
 ### Prerequisites
 
-If you wish to use the ingestor in your own project, and take advantage of its NocoDB connection capabilities, you will need access to an instance of [NocoDB](https://github.com/nocodb/nocodb). You will then need to create an .env file based on the [.env.sample file](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/.env.sample) we provide. 
+If you wish to use the ingestor in your own project, and take advantage of its NocoDB connection capabilities, you will need access to an instance of [NocoDB](https://github.com/nocodb/nocodb). You will then need to create an .env file based on the [.env.sample file](https://github.com/mpiwg-research-it/drih/blob/main/ingestor_code/.env.sample) we provide.
 
 ### Installation
 
@@ -98,16 +98,19 @@ Please install the dependencies as described in [requirements.txt](https://githu
 
 ### Usage
 
-> python -m ingestor -url http://remote_url -u rs_username -p rs_password -d -t
+```
+python -m ingestor -url http://remote_url -u rs_username -p rs_password -d -t
+```
 
 options:
--  **-h**, --help  shows help and exit
--  **-url** URL    url of the remote researchspace instance (default: http://localhost)
--  **-u**   U      username for the remote researchspace instance (default: admin)
--  **-p**   P      password for the remote researchspace instance  (default: admin)
--  **-push**       push to researchspace instance set in -url (you might need to set -u and -p)
--  **-d**          generate diagram for each entity
--  **-t**          run tests and generate test reports in output/
+
+- **-h**, --help  shows help and exit
+- **-url** URL    url of the remote researchspace instance (default: http://localhost)
+- **-u**   U      username for the remote researchspace instance (default: admin)
+- **-p**   P      password for the remote researchspace instance  (default: admin)
+- **-push**       push to researchspace instance set in -url (you might need to set -u and -p)
+- **-d**          generate diagram for each entity
+- **-t**          run tests and generate test reports in output/
 
 ## Project Decsription Layer Model
 
