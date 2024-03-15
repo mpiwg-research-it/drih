@@ -62,7 +62,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#ingestor-scripts">Ingestor Scripts</a>
+      <a href="#ingestor-script">Ingestor Script</a>
     </li>
     <li><a href="#project-description-layer-model">Project Description Layer Model (PDLM) v.0.1</a></li>
     <li><a href="#pdlm-tabular-data">Tabular data of the PDLM v.0.1</a></li>
