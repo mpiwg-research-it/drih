@@ -120,11 +120,17 @@ The Project Description Layer Model (PDLM) is a semantic model based on CIDOC CR
 
 _Overview of the PDLM_
 
-<!-- ROADMAP -->
+### PDLM Development Version
 
-## PDLM tabular data
+The current development version of the PDLM is based on the RDFS encoding of the Parthenos Entity Model 3.1.1.
 
-CSV-Exports from Airtable of the Projet Team and Research Project model:
+[CRMpe_v3.1.1_pdlm-extension_2024-04-17.rdfs](https://github.com/mpiwg-research-it/drih/blob/main/pdlm/CRMpe_v3.1.1_pdlm-extension_2024-04-17.rdfs)
+
+We plan to publish the PDLM in its own namespace.
+
+## PDLM Model Definitions from Airtable
+
+CSV-Exports from Airtable of the Project Team and Research Project model:
 
 - [Model_Fields-PDLM.1 Project Team (MPIWG).csv](https://github.com/mpiwg-research-it/drih/files/14572058/Model_Fields-PDLM.1.Project.Team.MPIWG.csv)
 - [Model_Fields-PDLM.11 Research Project (MPIWG).csv](https://github.com/mpiwg-research-it/drih/files/14572057/Model_Fields-PDLM.11.Research.Project.MPIWG.csv)
